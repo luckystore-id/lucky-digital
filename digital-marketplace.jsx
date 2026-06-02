@@ -15,7 +15,7 @@ const PRODUCTS = [
     badge: "BESTSELLER",
     description: "500+ template CapCut viral: Reels, TikTok, YouTube Shorts. Tinggal ganti teks & export!",
     tags: ["CapCut", "Video", "TikTok"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 8,
@@ -29,7 +29,7 @@ const PRODUCTS = [
     badge: "HOT",
     description: "1000+ prompt ChatGPT/GPT-4 untuk bisnis, copywriting, coding, dan konten viral.",
     tags: ["ChatGPT", "GPT-4", "Prompt"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 9,
@@ -43,7 +43,7 @@ const PRODUCTS = [
     badge: "NEW",
     description: "Panduan & template lengkap pakai Google Gemini untuk produktivitas, riset, dan bisnis.",
     tags: ["Gemini", "Google AI", "Workflow"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 10,
@@ -57,7 +57,7 @@ const PRODUCTS = [
     badge: "HOT",
     description: "200+ prompt Claude terbaik untuk analisis, penulisan, coding, dan otomasi bisnis profesional.",
     tags: ["Claude", "Anthropic", "Prompt"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 11,
@@ -71,7 +71,7 @@ const PRODUCTS = [
     badge: "BESTSELLER",
     description: "Paket lengkap: CapCut + GPT + Gemini + Claude. Hemat 71%! Cocok untuk kreator & pebisnis.",
     tags: ["Bundle", "AI", "All-in-One"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 12,
@@ -85,7 +85,7 @@ const PRODUCTS = [
     badge: null,
     description: "100+ efek cinematic & transisi premium CapCut. Buat video terlihat seperti film Hollywood.",
     tags: ["CapCut", "Cinematic", "Efek"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   // ── ORIGINAL ──
   {
@@ -100,7 +100,7 @@ const PRODUCTS = [
     badge: null,
     description: "500+ komponen Figma siap pakai untuk web & mobile modern.",
     tags: ["Figma", "UI", "Components"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ const PRODUCTS = [
     badge: null,
     description: "Kuasai SEO dari nol hingga rank #1 Google dalam 30 hari.",
     tags: ["SEO", "Marketing", "Google"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 3,
@@ -128,7 +128,7 @@ const PRODUCTS = [
     badge: null,
     description: "Starter kit lengkap: auth, payment, dashboard, dan API.",
     tags: ["Next.js", "SaaS", "React"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 4,
@@ -142,7 +142,7 @@ const PRODUCTS = [
     badge: null,
     description: "1000+ template Instagram, TikTok & LinkedIn siap edit.",
     tags: ["Instagram", "TikTok", "Canva"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 5,
@@ -156,7 +156,7 @@ const PRODUCTS = [
     badge: null,
     description: "50+ script otomasi bisnis: scraping, email, spreadsheet.",
     tags: ["Python", "Automation", "Script"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
   },
   {
     id: 6,
@@ -170,11 +170,297 @@ const PRODUCTS = [
     badge: null,
     description: "Sistem manajemen bisnis lengkap di Notion untuk startup.",
     tags: ["Notion", "Productivity", "Business"],
-    seller: "Lucky.Store",
+    seller: "Lucky Digital",
+  },
+
+  // ── EBOOK & PANDUAN ──
+  {
+    id: 13,
+    title: "Ebook Jualan Online 2025",
+    category: "Ebook",
+    price: 59000,
+    originalPrice: 149000,
+    rating: 4.8,
+    sales: 4200,
+    image: "📚",
+    badge: "BESTSELLER",
+    description: "Panduan lengkap jualan di Shopee, TikTok Shop & Instagram. Dari 0 sampai omset jutaan.",
+    tags: ["Jualan", "Shopee", "TikTok Shop"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 14,
+    title: "Ebook Copywriting Killer",
+    category: "Ebook",
+    price: 49000,
+    originalPrice: 99000,
+    rating: 4.7,
+    sales: 3100,
+    image: "✍️",
+    badge: "HOT",
+    description: "Teknik menulis caption & iklan yang bikin orang langsung beli. 100+ contoh nyata.",
+    tags: ["Copywriting", "Iklan", "Caption"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 15,
+    title: "Ebook Dropship Modal 0",
+    category: "Ebook",
+    price: 39000,
+    originalPrice: 89000,
+    rating: 4.6,
+    sales: 5800,
+    image: "📦",
+    badge: null,
+    description: "Cara mulai dropship tanpa modal, supplier terpercaya, dan trik anti rugi.",
+    tags: ["Dropship", "Bisnis", "Modal 0"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 16,
+    title: "Ebook Investasi Saham Pemula",
+    category: "Ebook",
+    price: 69000,
+    originalPrice: 179000,
+    rating: 4.9,
+    sales: 2700,
+    image: "💹",
+    badge: "NEW",
+    description: "Panduan investasi saham dari nol. Belajar analisa, beli saham pertama, dan strategi cuan.",
+    tags: ["Saham", "Investasi", "Cuan"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 17,
+    title: "Ebook Passive Income 2025",
+    category: "Ebook",
+    price: 79000,
+    originalPrice: 199000,
+    rating: 4.9,
+    sales: 6300,
+    image: "💰",
+    badge: "BESTSELLER",
+    description: "17 cara passive income dari internet yang terbukti menghasilkan. Bisa dikerjakan dari HP.",
+    tags: ["Passive Income", "Online", "Cuan"],
+    seller: "Lucky Digital",
+  },
+  // ── PRESET & FILTER ──
+  {
+    id: 18,
+    title: "Preset Lightroom Aesthetic",
+    category: "Design",
+    price: 29000,
+    originalPrice: 79000,
+    rating: 4.8,
+    sales: 9200,
+    image: "🌅",
+    badge: "BESTSELLER",
+    description: "50+ preset Lightroom untuk foto feed Instagram aesthetic. Tone VSCO, Moody, Warm.",
+    tags: ["Lightroom", "Preset", "Foto"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 19,
+    title: "Pack Font Premium Indonesia",
+    category: "Design",
+    price: 35000,
+    originalPrice: 89000,
+    rating: 4.7,
+    sales: 4400,
+    image: "🔤",
+    badge: null,
+    description: "200+ font premium untuk desain konten, logo, dan branding bisnis lokal.",
+    tags: ["Font", "Tipografi", "Desain"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 20,
+    title: "Template Canva Feeds IG Pro",
+    category: "Design",
+    price: 55000,
+    originalPrice: 129000,
+    rating: 4.9,
+    sales: 7800,
+    image: "🖼️",
+    badge: "HOT",
+    description: "100+ template Canva feeds Instagram profesional. Grid aesthetic, puzzle layout, minimalis.",
+    tags: ["Canva", "Instagram", "Feed"],
+    seller: "Lucky Digital",
+  },
+  // ── COURSE & KELAS ──
+  {
+    id: 21,
+    title: "Kelas Editing Video TikTok",
+    category: "Course",
+    price: 149000,
+    originalPrice: 399000,
+    rating: 4.9,
+    sales: 3300,
+    image: "🎞️",
+    badge: "HOT",
+    description: "Belajar edit video TikTok yang viral dari nol. Transisi, efek, sound, caption.",
+    tags: ["TikTok", "Video", "Editing"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 22,
+    title: "Kelas Desain Canva Pemula",
+    category: "Course",
+    price: 99000,
+    originalPrice: 249000,
+    rating: 4.8,
+    sales: 5100,
+    image: "🎓",
+    badge: null,
+    description: "Kuasai Canva dari nol. Buat poster, feed IG, logo, dan presentasi keren dalam 7 hari.",
+    tags: ["Canva", "Desain", "Pemula"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 23,
+    title: "Kelas Affiliate Marketing",
+    category: "Course",
+    price: 179000,
+    originalPrice: 449000,
+    rating: 4.9,
+    sales: 2900,
+    image: "🤝",
+    badge: "NEW",
+    description: "Cara cuan dari affiliate Shopee, Tokopedia & TikTok Shop tanpa punya produk sendiri.",
+    tags: ["Affiliate", "Shopee", "TikTok"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 24,
+    title: "Kelas Public Speaking Online",
+    category: "Course",
+    price: 129000,
+    originalPrice: 349000,
+    rating: 4.7,
+    sales: 1800,
+    image: "🎤",
+    badge: null,
+    description: "Percaya diri berbicara di depan kamera, live streaming, dan presentasi profesional.",
+    tags: ["Public Speaking", "Live", "Percaya Diri"],
+    seller: "Lucky Digital",
+  },
+  // ── TEMPLATE BISNIS ──
+  {
+    id: 25,
+    title: "Template Invoice & Kwitansi",
+    category: "Template",
+    price: 25000,
+    originalPrice: 59000,
+    rating: 4.8,
+    sales: 8900,
+    image: "🧾",
+    badge: "BESTSELLER",
+    description: "50+ template invoice, kwitansi, dan surat jalan profesional format Word & Canva.",
+    tags: ["Invoice", "Bisnis", "Word"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 26,
+    title: "Template Proposal Bisnis",
+    category: "Template",
+    price: 45000,
+    originalPrice: 119000,
+    rating: 4.7,
+    sales: 3200,
+    image: "📝",
+    badge: null,
+    description: "10+ template proposal bisnis, kerjasama, dan sponsorship siap pakai dan mudah diedit.",
+    tags: ["Proposal", "Bisnis", "Word"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 27,
+    title: "Template CV & Resume ATS",
+    category: "Template",
+    price: 35000,
+    originalPrice: 89000,
+    rating: 4.9,
+    sales: 11200,
+    image: "📄",
+    badge: "BESTSELLER",
+    description: "20+ template CV modern yang lolos ATS. Dipakai ribuan pencari kerja, terbukti dilirik HRD.",
+    tags: ["CV", "Resume", "Kerja"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 28,
+    title: "Template PPT Presentasi Keren",
+    category: "Template",
+    price: 55000,
+    originalPrice: 139000,
+    rating: 4.8,
+    sales: 6700,
+    image: "📊",
+    badge: "HOT",
+    description: "30+ template PowerPoint & Google Slides modern. Cocok untuk pitch deck, laporan, seminar.",
+    tags: ["PPT", "Presentasi", "Slides"],
+    seller: "Lucky Digital",
+  },
+  // ── AI TOOLS TAMBAHAN ──
+  {
+    id: 29,
+    title: "Midjourney Prompt Pack",
+    category: "AI Tools",
+    price: 69000,
+    originalPrice: 179000,
+    rating: 4.8,
+    sales: 4100,
+    image: "🎨",
+    badge: "HOT",
+    description: "500+ prompt Midjourney untuk generate gambar produk, poster, karakter, dan konten viral.",
+    tags: ["Midjourney", "AI Art", "Prompt"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 30,
+    title: "Stable Diffusion Prompt Kit",
+    category: "AI Tools",
+    price: 59000,
+    originalPrice: 149000,
+    rating: 4.7,
+    sales: 2200,
+    image: "🖼️",
+    badge: null,
+    description: "300+ prompt Stable Diffusion untuk foto produk, background, dan ilustrasi gratis.",
+    tags: ["Stable Diffusion", "AI", "Gambar"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 31,
+    title: "Automation n8n + Make Templates",
+    category: "Script",
+    price: 119000,
+    originalPrice: 299000,
+    rating: 4.9,
+    sales: 980,
+    image: "⚙️",
+    badge: "NEW",
+    description: "30+ template otomasi n8n & Make.com: auto-reply WA, laporan otomatis, sync spreadsheet.",
+    tags: ["n8n", "Make", "Otomasi"],
+    seller: "Lucky Digital",
+  },
+  {
+    id: 32,
+    title: "Script Auto Reply WA Business",
+    category: "Script",
+    price: 89000,
+    originalPrice: 229000,
+    rating: 4.8,
+    sales: 3400,
+    image: "💬",
+    badge: "HOT",
+    description: "Script auto reply WhatsApp Business lengkap: katalog otomatis, balas order, follow up.",
+    tags: ["WhatsApp", "Auto Reply", "Bisnis"],
+    seller: "Lucky Digital",
   },
 ];
 
-const CATEGORIES = ["Semua", "AI Tools", "Design", "Course", "Template", "Script"];
+const CATEGORIES = ["Semua", "AI Tools", "Ebook", "Design", "Course", "Template", "Script"];
 
 // ─── UTILS ──────────────────────────────────────────────────────────────────
 const formatPrice = (n) =>
@@ -362,7 +648,7 @@ function ProductCard({ product, onBuy, onCart }) {
 }
 
 // QRIS Payment Modal
-function QRISModal({ total, onClose, onConfirm }) {
+function QRISModal({ total, onClose, onConfirm, payMethod }) {
   const [step, setStep] = useState("qris"); // qris | confirm | success
   const [copied, setCopied] = useState(false);
 
@@ -395,7 +681,7 @@ function QRISModal({ total, onClose, onConfirm }) {
             Terima kasih! Sekarang hubungi Lucky via WhatsApp untuk mendapatkan produkmu. 👇
           </p>
           <a
-            href="https://wa.me/6281393517851?text=Halo%20Lucky!%20Saya%20sudah%20bayar%20di%20Lucky.Store.%20Mohon%20kirimkan%20produknya%20ya%20🙏"
+            href="https://wa.me/628139351785?text=Halo%20Lucky!%20Saya%20sudah%20bayar%20di%20Lucky%20Digital.%20Mohon%20kirimkan%20produknya%20ya%20🙏"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -464,7 +750,42 @@ function QRISModal({ total, onClose, onConfirm }) {
           62-813***1785
         </div>
 
+        {/* BCA Payment Box */}
+        {payMethod === "bca" && (
+        <div style={{
+          background: "#eff6ff", border: "2px solid #0066ae",
+          borderRadius: 16, padding: 20, marginBottom: 16,
+          display: "flex", flexDirection: "column", alignItems: "center", gap: 12,
+        }}>
+          <div style={{
+            background: "#0066ae", borderRadius: 12,
+            padding: "6px 20px", color: "#fff",
+            fontWeight: 900, fontSize: 18, letterSpacing: 2,
+          }}>
+            BCA
+          </div>
+          <div style={{ fontSize: 13, color: "#1e293b", fontWeight: 600, textAlign: "center" }}>
+            Transfer ke rekening BCA berikut:
+          </div>
+          <div style={{
+            background: "#fff", border: "2px dashed #0066ae",
+            borderRadius: 12, padding: "16px 24px", textAlign: "center", width: "100%",
+          }}>
+            <div style={{ fontSize: 11, color: "#64748b", marginBottom: 4 }}>Nomor Rekening</div>
+            <div style={{ fontSize: 24, fontWeight: 900, color: "#0066ae", letterSpacing: 3 }}>
+              3141153747
+            </div>
+            <div style={{ fontSize: 13, color: "#334155", marginTop: 4 }}>a/n <strong>LUCKY</strong></div>
+          </div>
+          <div style={{ fontSize: 11, color: "#64748b", textAlign: "center" }}>
+            Setelah transfer, klik tombol konfirmasi di bawah<br/>
+            lalu hubungi Lucky via WhatsApp untuk verifikasi
+          </div>
+        </div>
+        )}
+
         {/* DANA Payment Box */}
+        {payMethod !== "bca" &&
         <div style={{
           background: "#f0f7ff", border: "2px solid #118EEA",
           borderRadius: 16, padding: 20, marginBottom: 16,
@@ -509,6 +830,7 @@ function QRISModal({ total, onClose, onConfirm }) {
             QRIS
           </div>
         </div>
+        }
 
         {/* Total */}
         <div style={{
@@ -552,6 +874,7 @@ function QRISModal({ total, onClose, onConfirm }) {
 function CartPanel({ cart, onClose, onRemove, onCheckout }) {
   const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
   const [showQRIS, setShowQRIS] = useState(false);
+  const [payMethod, setPayMethod] = useState("qris");
 
   return (
     <>
@@ -615,34 +938,53 @@ function CartPanel({ cart, onClose, onRemove, onCheckout }) {
             {/* Payment methods */}
             <div style={{ marginBottom: 12 }}>
               <div style={{ color: "#64748b", fontSize: 12, marginBottom: 8 }}>Metode Pembayaran:</div>
-              <div style={{
-                background: "#1e3a5f", border: "2px solid #2563eb",
-                borderRadius: 10, padding: "10px 14px",
-                display: "flex", alignItems: "center", gap: 10,
-                cursor: "pointer",
-              }}>
-                <span style={{ fontSize: 20 }}>📱</span>
-                <div>
-                  <div style={{ color: "#93c5fd", fontWeight: 700, fontSize: 13 }}>QRIS</div>
-                  <div style={{ color: "#64748b", fontSize: 11 }}>Semua e-wallet & m-banking</div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                <div
+                  onClick={() => setPayMethod("qris")}
+                  style={{
+                    background: payMethod === "qris" ? "#1e3a5f" : "#1e293b",
+                    border: payMethod === "qris" ? "2px solid #2563eb" : "1px solid #334155",
+                    borderRadius: 10, padding: "10px 14px",
+                    display: "flex", alignItems: "center", gap: 10,
+                    cursor: "pointer",
+                  }}>
+                  <span style={{ fontSize: 20 }}>📱</span>
+                  <div>
+                    <div style={{ color: "#93c5fd", fontWeight: 700, fontSize: 13 }}>DANA / QRIS</div>
+                    <div style={{ color: "#64748b", fontSize: 11 }}>Semua e-wallet & m-banking</div>
+                  </div>
+                  {payMethod === "qris" && <div style={{ marginLeft: "auto", background: "#2563eb", borderRadius: 6, padding: "2px 8px", fontSize: 11, color: "#fff", fontWeight: 700 }}>✓</div>}
                 </div>
-                <div style={{
-                  marginLeft: "auto",
-                  background: "#2563eb", borderRadius: 6,
-                  padding: "2px 8px", fontSize: 11, color: "#fff", fontWeight: 700,
-                }}>✓</div>
+                <div
+                  onClick={() => setPayMethod("bca")}
+                  style={{
+                    background: payMethod === "bca" ? "#1a3a2a" : "#1e293b",
+                    border: payMethod === "bca" ? "2px solid #0066ae" : "1px solid #334155",
+                    borderRadius: 10, padding: "10px 14px",
+                    display: "flex", alignItems: "center", gap: 10,
+                    cursor: "pointer",
+                  }}>
+                  <span style={{ fontSize: 20 }}>🏦</span>
+                  <div>
+                    <div style={{ color: "#60a5fa", fontWeight: 700, fontSize: 13 }}>Transfer BCA</div>
+                    <div style={{ color: "#64748b", fontSize: 11 }}>3141153747 a/n Lucky</div>
+                  </div>
+                  {payMethod === "bca" && <div style={{ marginLeft: "auto", background: "#0066ae", borderRadius: 6, padding: "2px 8px", fontSize: 11, color: "#fff", fontWeight: 700 }}>✓</div>}
+                </div>
               </div>
             </div>
 
             <button onClick={() => setShowQRIS(true)} style={{
               width: "100%",
-              background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
+              background: payMethod === "bca"
+                ? "linear-gradient(135deg, #0066ae, #004d8a)"
+                : "linear-gradient(135deg, #2563eb, #1d4ed8)",
               color: "#fff", border: "none", borderRadius: 12,
               padding: "14px 0", fontWeight: 700, fontSize: 15,
               cursor: "pointer",
               display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
             }}>
-              <span>📱</span> Bayar via QRIS →
+              {payMethod === "bca" ? <><span>🏦</span> Bayar via BCA →</> : <><span>📱</span> Bayar via DANA/QRIS →</>}
             </button>
           </div>
         </>
@@ -652,6 +994,7 @@ function CartPanel({ cart, onClose, onRemove, onCheckout }) {
     {showQRIS && (
       <QRISModal
         total={total}
+        payMethod={payMethod}
         onClose={() => setShowQRIS(false)}
         onConfirm={() => { setShowQRIS(false); onCheckout(); }}
       />
@@ -775,7 +1118,7 @@ export default function App() {
             background: "linear-gradient(135deg, #6366f1, #a855f7)",
             WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
           }}>
-            DigiMarket
+            Lucky Digital
           </span>
         </div>
 
@@ -1030,7 +1373,7 @@ export default function App() {
 
       {/* FLOATING WA BUTTON */}
       <a
-        href="https://wa.me/6281393517851?text=Halo%20Lucky!%20Saya%20mau%20tanya%20tentang%20produk%20di%20Lucky.Store%20🙏"
+        href="https://wa.me/628139351785?text=Halo%20Lucky!%20Saya%20mau%20tanya%20tentang%20produk%20di%20Lucky%20Digital%20🙏"
         target="_blank"
         rel="noopener noreferrer"
         style={{
